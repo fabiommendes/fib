@@ -6,5 +6,5 @@ for _ in range(n):
     
     fibonacci.append(x)
     x , y = y, x + y
-print (fib)    
+print (fibonacci)    
     
