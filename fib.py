@@ -6,4 +6,5 @@ for _ in range(n):
     fib.append(x)
     x , y = y, x + y
 print (fib)    
+  #danilo,aqui
     
