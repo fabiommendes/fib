@@ -1,9 +1,14 @@
 # Calcula a sequência de Fibonacci (sqn)
 n = int(input("n: "))
-x, y = 1, 1
+a = 1
+b = 1
+c = 2
 
 for _ in range(n):
-    print(x)
-    x = y
-    y = x + y
+    print(a)
+    print(b)
+    print(c)
+    a = c + b
+    b = c + a
+    c = a + b
     
