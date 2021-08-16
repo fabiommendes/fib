@@ -1,9 +1,7 @@
 # Calcula a sequência de Fibonacci (sqn)
 n = int(input("n: "))
-x, y = 1, 1
-fib =[]
-for _ in range(n):
-    fib.append(x)
-    x , y = y, x + y
+fib =[1,1]
+for i in range(len(fib),n):
+    fib.append(fib[i-2] + fib[i-1])
 print (fib)    
     
