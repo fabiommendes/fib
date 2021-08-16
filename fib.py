@@ -1,4 +1,4 @@
-# Calcula a sequência de Fibonacci (sqn)
+# Calcula a sequência de Fibonacci 
 n = int(input("n: "))
 x, y = 1, 1
 fib =[]
